@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.login-route-main-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.login-route-login-container-complete {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px;
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-route-landing-image {
+  display: block;
+  height: 350px;
+  width: 350px;
+  align-self: flex-end;
+  order: 0;
+  border-radius: 1500px;
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+.login-route-login-heading {
+  width: 90%;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  color: #0f172a;
+  margin: 0px 0px 15px 0px;
+}
+.login-route-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.login-route-label-element {
+  height: 16px;
+  width: 66px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #475569;
+  margin-bottom: 6px;
+}
+.login-route-input-element {
+  height: 40px;
+  padding: 15px;
+  font-weight: 500;
+  font-family: DM Sans;
+  left: 16px;
+  top: 24px;
+  border-radius: 2px;
+  background: #e2e8f0;
+  border: none;
+  margin-bottom: 18px;
+  outline: none;
+}
+.login-route-form-submit-button {
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background: #f7931e;
+  border: none;
+  align-self: stretch;
+  color: #ffffff;
+}
+
+.login-route-login-logo-text-container {
+  display: none;
+}
+.login-content-container-for-large-center {
+  width: 100%;
+}
+.login-route-error-msg {
+  color: red;
+  margin-bottom: 15px;
+}
+@media all and (min-width: 550px) {
+  .login-route-landing-image {
+    display: block;
+    width: 50%;
+    min-height: 100vh;
+    order: 2;
+    border-radius: 0px;
+    position: static;
+  }
+  .login-route-main-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .login-route-login-container-complete {
+    box-shadow: 2px 2px 10px #888888;
+    padding: 20px 10px 20px 10px;
+    margin: 15px;
+    border-radius: 15px;
+    width: 300px;
+  }
+  .login-route-login-logo-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-route-large-logo-text {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    color: #f7931e;
+    margin: 0px;
+  }
+  .login-route-login-heading {
+    text-align: center;
+  }
+  .login-content-container-for-large-center {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
